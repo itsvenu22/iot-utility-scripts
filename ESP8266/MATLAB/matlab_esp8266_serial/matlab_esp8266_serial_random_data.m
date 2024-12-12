@@ -7,7 +7,7 @@ baudRate = 115200;
 esp8266 = serialport(comPort, baudRate);
 
 % Set up a loop to read and display data
-disp("Reading data from ESP32...");
+disp("Reading data from ESP8266...");
 while true
     if esp8266.NumBytesAvailable > 0
         % Read a line of data
